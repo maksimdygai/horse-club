@@ -1,0 +1,33 @@
+html
+    min-height 100%
+body
+    font 62.5% 'Open Sans', sans-serif
+    color $brown
+    background rgb(204,204,204)
+    background rgba(204,204,204, .2)
+    background-attachment fixed
+
+*
+    box-sizing border-box
+
+*
+*:active
+*:focus
+*:hover
+    outline 0
+
+h1, h2, h3, h4, h5, h6
+    font-weight normal
+
+a
+    text-decoration none
+    color inherit
+    &[disabled]
+        opacity .6
+        pointer-events none
+
+button
+    appearance none
+
+*::selection
+    background rgba(0,0,0, .6)
