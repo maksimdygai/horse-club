@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         //------------------------------------------------------------
         watch: {
             stylus: {
-                files: 'styl/*.styl',
+                files: 'styl/**/*.styl',
                 tasks: ['stylus'],
                 options: {
                     interrupt: true

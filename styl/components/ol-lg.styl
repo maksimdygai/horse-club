@@ -1,0 +1,20 @@
+.ol-lg
+    counter-reset number
+    list-style none
+    padding 0
+    &__item
+        &:last-child
+            p
+                padding 0
+                border-bottom none
+        &:before
+            content counter(number)
+            counter-increment number
+            display inline-block
+            float left
+            padding 12px 34px 0 12px
+            font-size 23px
+    p
+        margin 1em 0 20px
+        padding 0 0 20px 
+        border-bottom 1px dotted
